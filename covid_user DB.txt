@@ -1,0 +1,12 @@
+--시퀀스
+create sequence seq_cuser_idx;
+
+--테이블
+create table COVID_USER(
+	idx NUMBER(3) primary key, --idx
+	name VARCHAR2(50) not null, --이름
+	id VARCHAR2(50) not null unique, -- id
+	pwd VARCHAR2(50) not null, --pwd
+	email VARCHAR2(100), --email
+	phone VARCHAR2(100) not null --번호 그냥 문자열로받자
+);

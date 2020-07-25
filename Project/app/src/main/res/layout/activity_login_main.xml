@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginMainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/mask_man_set"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/mask_woman_set"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="코로나19 극복"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:text="코리아 자가 지킴이"
+        android:textColor="#2B6334"
+        android:layout_marginBottom="5dp"/>
+
+   <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textColor="#505150"
+        android:id="@+id/login_id_et"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="PWD"
+        android:id="@+id/login_pwd_et"/>
+
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="#2BF897"
+        android:layout_marginTop="10dp"
+        android:text="로그인"
+        android:id="@+id/btn_login"/>
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:background="#CACACA"
+        android:layout_marginTop="10dp"
+        android:text="회원가입"
+        android:id="@+id/btn_join"/>
+
+
+
+</LinearLayout>

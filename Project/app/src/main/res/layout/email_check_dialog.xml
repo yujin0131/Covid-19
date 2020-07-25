@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail 인증"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:hint="인증번호를 입력해 주세요"
+            android:layout_marginLeft="20dp"
+            android:background="#ffffff"
+            android:id="@+id/dialog_email_check_et"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="3:00"
+            android:textSize="20dp"
+            android:id="@+id/dialog_email_time_counter"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/dialog_email_check_btn"/>
+
+
+</LinearLayout>

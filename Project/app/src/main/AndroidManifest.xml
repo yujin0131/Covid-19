@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lyj.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBgG_xVIu8V4BHmR0J5i8A_QXBhjRwvtl0" />
+        <activity android:name=".WeatherDrawActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
+        <activity android:name=".MsgActivity" />
+        <activity android:name=".AreaActivity" />
+        <activity android:name=".WeatherActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".JoinActivity" />
+        <activity android:name=".LoginMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MaskDetailActivity" />
+        <activity android:name=".MaskActivity" />
+        <activity android:name=".CovidActivity" />
+        <activity android:name=".WepViewActivity"/>
+        <activity android:name=".SelfDiagnosisActivity"/>
+    </application>
+
+</manifest>

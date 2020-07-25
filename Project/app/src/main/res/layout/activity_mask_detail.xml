@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaskDetailActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="약국이름"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/m_detail_name_tv"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상세주소"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/m_detail_add_tv"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/mask"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마스크 재고량"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/m_detail_remain_stat_tv"/>
+
+    </LinearLayout>
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="320dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        class="com.google.android.gms.maps.MapFragment" />
+
+</LinearLayout>
