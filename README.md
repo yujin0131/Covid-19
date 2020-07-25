@@ -11,6 +11,9 @@
 * google map api
 * 대기오염 api
 
+### DB
+ 로그인/회원가입 DB ( jsp 이용 )
+
 ### 기능
  회원가입 / 로그인<br/>
  코로나에 관한 정의 및 정보들을 WebView를 통해 제공<br/>
