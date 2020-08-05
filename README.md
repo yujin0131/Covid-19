@@ -25,12 +25,18 @@
 
 
 
-
-
-
-
+ - 회원가입 & 로그인 기능
+ 
 ![main](https://user-images.githubusercontent.com/65699860/88385222-e9646900-cde8-11ea-9486-2b516f78140c.png)
+
+- 지역별 코로나 감염 현황 정보 
+
 ![1](https://user-images.githubusercontent.com/65699860/88385227-ea959600-cde8-11ea-94bc-f945bbf633ec.png)
+
+- 자가진단 기능
+
 ![2](https://user-images.githubusercontent.com/65699860/88385230-ebc6c300-cde8-11ea-8294-b137043f17f8.png)
+
+
 ![3](https://user-images.githubusercontent.com/65699860/88385232-ecf7f000-cde8-11ea-82ed-488b19c08d59.png)
 ![4](https://user-images.githubusercontent.com/65699860/88385235-ee291d00-cde8-11ea-89c4-fff13528fc24.png)
