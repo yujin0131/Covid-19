@@ -25,18 +25,37 @@
 
 
 
- - 회원가입 & 로그인 기능
+- 회원가입 & 로그인 기능
  
 ![main](https://user-images.githubusercontent.com/65699860/88385222-e9646900-cde8-11ea-9486-2b516f78140c.png)
+![image](https://user-images.githubusercontent.com/65699860/120009155-a67dae00-c016-11eb-9b34-607a1ebbcecc.png)
+<br/> 
+- main 기능
 
-- 지역별 코로나 감염 현황 정보 
+![image](https://user-images.githubusercontent.com/65699860/120007198-99f85600-c014-11eb-8d08-cd6d1bdb8713.png) 
+![image](https://user-images.githubusercontent.com/65699860/120008146-a204c580-c015-11eb-8f1d-27cfa28f70db.png)
+![3](https://user-images.githubusercontent.com/65699860/88385232-ecf7f000-cde8-11ea-82ed-488b19c08d59.png) 
+<br/> 
+- 마스크 현황 검색 기능
 
-![1](https://user-images.githubusercontent.com/65699860/88385227-ea959600-cde8-11ea-94bc-f945bbf633ec.png)
+처음 만들었을 땐 공공데이터 포털에서 데이터를 제공해줬었는데 <br/> 
+7월 12일 부로 마스크 제한이 풀려서인지 데이터 제공을 더이상 지원하지 않아 임시 데이터를 넣었다.
 
-- 자가진단 기능
+![image](https://user-images.githubusercontent.com/65699860/120007350-c613d700-c014-11eb-92a0-5f6fa739a7a7.png) 
+![image](https://user-images.githubusercontent.com/65699860/120007366-cb712180-c014-11eb-92a5-8fcb53a57f70.png)
 
-![2](https://user-images.githubusercontent.com/65699860/88385230-ebc6c300-cde8-11ea-8294-b137043f17f8.png)
+<br/> 
+
+- 지역별 코로나 감염 현황 정보 & 자가진단 기능
 
 
-![3](https://user-images.githubusercontent.com/65699860/88385232-ecf7f000-cde8-11ea-82ed-488b19c08d59.png)
+![image](https://user-images.githubusercontent.com/65699860/120009861-68cd5500-c017-11eb-8cc0-d1d4b03f31f9.png)
+
+
+<br/> 
+
+- 대기오염 기능
+
 ![4](https://user-images.githubusercontent.com/65699860/88385235-ee291d00-cde8-11ea-89c4-fff13528fc24.png)
+![image](https://user-images.githubusercontent.com/65699860/120008480-f314b980-c015-11eb-8455-ae34df99ea16.png)
+
