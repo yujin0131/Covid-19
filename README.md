@@ -1,61 +1,146 @@
-# Covid-19 
-###### 2020.07.16
+<font class="papago-parent"><font class="papago-source" style="display:none;"># Covid-19 
+</font># 코비드-19 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">###### 2020.07.16
+</font>###### 2020.07.16
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
->Android studio를 사용하여 많은 사람들이 사용할 만한 app을 만들기위하여<br/>2020년도 가장 이슈라 할 수 있는 **코로나**에 관한 어플리케이션을 만들었다.
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">>Android studio를 사용하여 많은 사람들이 사용할 만한 app을 개발하기위하여<br/>2020년도 가장 이슈라 할 수 있는 **코로나**에 관한 어플리케이션을 만들었다.</font>>Android studio를 사용하여 많은 사람들이 사용할 만한 app을 만들기위하여<br/>2020년도 가장 이슈라 할 수 있는 **코로나**에 관한 어플리케이션을 만들었다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-### API
-* 코로나 감염현황 api
-* 재난문자 api
-* 마스크 제공 약국 api
-* google map api
-* 대기오염 api
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-### DB
- 로그인/회원가입 DB ( jsp 이용 )
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">### API
+</font>### API
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">* 코로나 감염현황 api
+</font>* 코로나 감염현황 api
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">* 재난문자 api
+</font>* 재난문자 api
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">* 마스크 제공 약국 api
+</font>* 마스크 제공 약국 api
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">* google map api
+</font>* 구글 맵 api
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">* 대기오염 api
+</font>* 대기오염 api
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-### 기능
- 회원가입 / 로그인<br/>
- 코로나에 관한 정의 및 정보들을 WebView를 통해 제공<br/>
- 유저별 자신이 설정한 위치 정보 저장<br/>
- 지역별 코로나 감염 현황 정보 제공<br/>
- 알고자 하는 지역의 대기오염에 관한 모든 정보와 약국 리스트, 각 약국들의 마스크 보유 현황, 위치 등의 정보 제공<br/>
- 실시간 재난문자들 안내<br/>
- 코로나 자가진단 테스트<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">### DB
+</font>### DB
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 로그인/회원가입 DB ( jsp 이용 )
+</font> 로그인/회원가입 DB ( jsp 이용 )
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">### 기능
+</font>### 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 회원가입 / 로그인<br/>
+</font> 회원가입 / 로그인<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 코로나에 관한 정의 및 정보들을 WebView를 통해 제공<br/>
+</font> 코로나에 관한 정의 및 정보들을 WebView를 통해 제공<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 유저별 자신이 설정한 위치 정보 저장<br/>
+</font> 유저별 자신이 설정한 위치 정보 저장<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 지역별 코로나 감염 현황 정보 제공<br/>
+</font> 지역별 코로나 감염 현황 정보 제공<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 알고자 하는 지역의 대기오염에 관한 모든 정보와 약국 리스트, 각 약국들의 마스크 보유 현황, 위치 등의 정보 제공<br/>
+</font> 알고자 하는 지역의 대기오염에 관한 모든 정보와 약국 리스트, 각 약국들의 마스크 보유 현황, 위치 등의 정보 제공<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 실시간 재난문자들 안내<br/>
+</font> 실시간 재난문자들 안내<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 코로나 자가진단 테스트<br/>
+</font> 코로나 자가진단 테스트<br/>
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-- 회원가입 & 로그인 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">- 회원가입 & 로그인 기능
+</font>- 회원가입 & 로그인 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"> 
+</font> 
  
-![main](https://user-images.githubusercontent.com/65699860/88385222-e9646900-cde8-11ea-9486-2b516f78140c.png)
-![image](https://user-images.githubusercontent.com/65699860/120009155-a67dae00-c016-11eb-9b34-607a1ebbcecc.png)
-<br/> 
-- main 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![main](https://user-images.githubusercontent.com/65699860/88385222-e9646900-cde8-11ea-9486-2b516f78140c.png)
+</font>![main](https://user-images.githubusercontent.com/65699860/88385222-e9646900-cde8-11ea-9486-2b516f78140c.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120009155-a67dae00-c016-11eb-9b34-607a1ebbcecc.png)
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120009155-a67dae00-c016-11eb-9b34-607a1ebbcecc.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"><br/> 
+</font><br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">- main 기능
+</font>- main 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-![image](https://user-images.githubusercontent.com/65699860/120007198-99f85600-c014-11eb-8d08-cd6d1bdb8713.png) 
-![image](https://user-images.githubusercontent.com/65699860/120008146-a204c580-c015-11eb-8f1d-27cfa28f70db.png)
-![3](https://user-images.githubusercontent.com/65699860/88385232-ecf7f000-cde8-11ea-82ed-488b19c08d59.png) 
-<br/> 
-- 마스크 현황 검색 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120007198-99f85600-c014-11eb-8d08-cd6d1bdb8713.png) 
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120007198-99f85600-c014-11eb-8d08-cd6d1bdb8713.png) 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120008146-a204c580-c015-11eb-8f1d-27cfa28f70db.png)
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120008146-a204c580-c015-11eb-8f1d-27cfa28f70db.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![3](https://user-images.githubusercontent.com/65699860/88385232-ecf7f000-cde8-11ea-82ed-488b19c08d59.png) 
+</font>![3](https://user-images.githubusercontent.com/65699860/88385232-ecf7f000-cde8-11ea-82ed-488b19c08d59.png) 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"><br/> 
+</font><br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">- 마스크 현황 검색 기능
+</font>- 마스크 현황 검색 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-처음 만들었을 땐 공공데이터 포털에서 데이터를 제공해줬었는데 <br/> 
-7월 12일 부로 마스크 제한이 풀려서인지 데이터 제공을 더이상 지원하지 않아서 임시 데이터를 넣었다.
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">처음 만들었을 땐 공공데이터 포털에서 데이터를 제공해줬었는데 <br/> 
+</font>처음 만들었을 땐 공공데이터 포털에서 데이터를 제공해줬었는데 <br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">7월 12일 부로 마스크 제한이 풀려서인지 데이터 제공을 더이상 지원하지 않아서 임시 데이터를 넣었다.</font>7월 12일 부로 마스크 제한이 풀려서인지 데이터 제공을 더이상 지원하지 않아서 임시 데이터를 넣었다.</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-![image](https://user-images.githubusercontent.com/65699860/120007350-c613d700-c014-11eb-92a0-5f6fa739a7a7.png) 
-![image](https://user-images.githubusercontent.com/65699860/120007366-cb712180-c014-11eb-92a5-8fcb53a57f70.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-<br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120007350-c613d700-c014-11eb-92a0-5f6fa739a7a7.png) 
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120007350-c613d700-c014-11eb-92a0-5f6fa739a7a7.png) 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120007366-cb712180-c014-11eb-92a5-8fcb53a57f70.png)
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120007366-cb712180-c014-11eb-92a5-8fcb53a57f70.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-- 지역별 코로나 감염 현황 정보 & 자가진단 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"><br/> 
+</font><br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">- 지역별 코로나 감염 현황 정보 & 자가진단 기능
+</font>- 지역별 코로나 감염 현황 정보 & 자가진단 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-![image](https://user-images.githubusercontent.com/65699860/120009861-68cd5500-c017-11eb-8cc0-d1d4b03f31f9.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120009861-68cd5500-c017-11eb-8cc0-d1d4b03f31f9.png)
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120009861-68cd5500-c017-11eb-8cc0-d1d4b03f31f9.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-<br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-- 대기오염 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;"><br/> 
+</font><br/> 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
-![4](https://user-images.githubusercontent.com/65699860/88385235-ee291d00-cde8-11ea-89c4-fff13528fc24.png)
-![image](https://user-images.githubusercontent.com/65699860/120008480-f314b980-c015-11eb-8455-ae34df99ea16.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">- 대기오염 기능
+</font>- 대기오염 기능
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
 
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![4](https://user-images.githubusercontent.com/65699860/88385235-ee291d00-cde8-11ea-89c4-fff13528fc24.png)
+</font>![4](https://user-images.githubusercontent.com/65699860/88385235-ee291d00-cde8-11ea-89c4-fff13528fc24.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">![image](https://user-images.githubusercontent.com/65699860/120008480-f314b980-c015-11eb-8455-ae34df99ea16.png)
+</font>![이미지](https://user-images.githubusercontent.com/65699860/120008480-f314b980-c015-11eb-8455-ae34df99ea16.png)
+</font><font class="papago-parent"><font class="papago-source" style="display:none;">
+</font>
+
+</font>
